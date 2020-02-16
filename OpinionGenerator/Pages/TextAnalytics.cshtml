@@ -1,0 +1,15 @@
+﻿@page
+@model OpinionGenerator.TextAnalyticsModel
+@{
+    ViewData["Title"] = "TextAnalytics";
+}
+
+<h1>TextAnalytics</h1>
+
+<form method="post">
+    <textarea asp-for="TextToAnalyze" rows="5" cols="200"></textarea>
+    <input type="submit" />
+</form>
+
+<p>@Model.Output</p>
+

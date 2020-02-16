@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.SpaServices.AngularCli;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using OpinionGenerator.Services;
 
 namespace OpinionGenerator
 {
@@ -26,6 +27,8 @@ namespace OpinionGenerator
             {
                 configuration.RootPath = "ClientApp/dist";
             });
+            services.AddRazorPages();
+            services.AddScoped<ITextAnalyticsService, AzureTextAnalyticsService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -55,21 +58,28 @@ namespace OpinionGenerator
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller}/{action=Index}/{id?}");
+                    pattern: "{controller}/{action=Index}/{id?}");                
             });
 
-            app.UseSpa(spa =>
+            app.Map("/razor", razor =>
             {
-                // To learn more about options for serving an Angular SPA from ASP.NET Core,
-                // see https://go.microsoft.com/fwlink/?linkid=864501
-
-                spa.Options.SourcePath = "ClientApp";
-
-                if (env.IsDevelopment())
+                razor.UseRouting().UseEndpoints(endpoints =>
                 {
-                    spa.UseAngularCliServer(npmScript: "start");
-                }
-            });
+                    endpoints.MapRazorPages();
+                });
+            }).Map("/ng", ng => {
+                ng.UseRouting().UseSpa(spa =>
+                {
+                    // To learn more about options for serving an Angular SPA from ASP.NET Core,
+                    // see https://go.microsoft.com/fwlink/?linkid=864501
+
+                    spa.Options.SourcePath = "ClientApp";
+                    if (env.IsDevelopment())
+                    {
+                        spa.UseAngularCliServer(npmScript: "start");
+                    }
+                });
+            });            
         }
     }
 }

@@ -1,6 +1,6 @@
 using System;
 
-namespace OpinionGenerator
+namespace OpinionGenerator.Entities
 {
     public class WeatherForecast
     {
