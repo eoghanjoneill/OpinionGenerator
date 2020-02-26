@@ -1,0 +1,14 @@
+﻿@page
+@model OpinionGenerator.ArticlesModel
+@{
+    ViewData["Title"] = "Articles";
+}
+
+<h1>Articles</h1>
+
+<form method="post">    
+    <button type="submit">Get Articles</button>
+</form>
+
+<p>@Model.Output</p>
+

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OpinionGenerator.DataAccess
+namespace OpinionGenerator.Data
 {
     public class Class1
     {

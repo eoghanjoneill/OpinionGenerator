@@ -5,7 +5,14 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpinionGenerator", "OpinionGenerator\OpinionGenerator.csproj", "{20140272-1BBA-4994-ACCC-4332C92236AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpinionGenerator.DataAccess", "OpinionGenerator.DataAccess\OpinionGenerator.DataAccess.csproj", "{F9AF6514-7DBC-4AFD-928C-A3BCDB63213A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpinionGeneratorTests", "OpinionGeneratorTests\OpinionGeneratorTests.csproj", "{08401222-D27C-4B09-A86A-71A99214631C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{20140272-1BBA-4994-ACCC-4332C92236AD} = {20140272-1BBA-4994-ACCC-4332C92236AD}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpinionGenerator.Data", "OpinionGenerator.Data\OpinionGenerator.Data.csproj", "{10BCD014-1D7C-448D-A769-CC3A8688E651}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpinionGenerator.Core", "OpinionGenerator.Core\OpinionGenerator.Core.csproj", "{3C74413A-B48E-4A7A-900C-D9659F95E48A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +24,18 @@ Global
 		{20140272-1BBA-4994-ACCC-4332C92236AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20140272-1BBA-4994-ACCC-4332C92236AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20140272-1BBA-4994-ACCC-4332C92236AD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F9AF6514-7DBC-4AFD-928C-A3BCDB63213A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F9AF6514-7DBC-4AFD-928C-A3BCDB63213A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F9AF6514-7DBC-4AFD-928C-A3BCDB63213A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F9AF6514-7DBC-4AFD-928C-A3BCDB63213A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08401222-D27C-4B09-A86A-71A99214631C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08401222-D27C-4B09-A86A-71A99214631C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08401222-D27C-4B09-A86A-71A99214631C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08401222-D27C-4B09-A86A-71A99214631C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10BCD014-1D7C-448D-A769-CC3A8688E651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10BCD014-1D7C-448D-A769-CC3A8688E651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10BCD014-1D7C-448D-A769-CC3A8688E651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10BCD014-1D7C-448D-A769-CC3A8688E651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C74413A-B48E-4A7A-900C-D9659F95E48A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C74413A-B48E-4A7A-900C-D9659F95E48A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C74413A-B48E-4A7A-900C-D9659F95E48A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C74413A-B48E-4A7A-900C-D9659F95E48A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

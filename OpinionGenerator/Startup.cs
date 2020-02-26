@@ -28,7 +28,10 @@ namespace OpinionGenerator
                 configuration.RootPath = "ClientApp/dist";
             });
             services.AddRazorPages();
-            services.AddScoped<ITextAnalyticsService, AzureTextAnalyticsService>();
+
+            services.AddTransient<IArticleService, NewsAPIArticleServiceWrapper>();
+            services.AddTransient<ITextAnalyticsService, AzureTextAnalyticsServiceWrapper>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
