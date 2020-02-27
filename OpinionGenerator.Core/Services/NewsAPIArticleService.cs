@@ -29,7 +29,17 @@ namespace OpinionGenerator.Core.Services
             if (response.IsSuccessStatusCode)
             {
                 var stream = await response.Content.ReadAsStreamAsync();
-                var articles = await JsonSerializer.DeserializeAsync<List<Article>>(stream);
+                var options = new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                };
+                var docOptions = new JsonDocumentOptions
+                {
+                    AllowTrailingCommas = true
+                };
+                JsonDocument document = JsonDocument.Parse(stream, docOptions);
+                string s = document.ToString();
+                var articles = new List<Article>(); //await JsonSerializer.DeserializeAsync<List<Article>>(stream);
                 return articles;
             }
             else

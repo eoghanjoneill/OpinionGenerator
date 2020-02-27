@@ -31,6 +31,12 @@
     <ProjectReference Include="..\OpinionGenerator.Core\OpinionGenerator.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="Services\NewsAPI-sample.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
     <!-- Ensure Node.js is installed -->
     <Exec Command="node --version" ContinueOnError="true">

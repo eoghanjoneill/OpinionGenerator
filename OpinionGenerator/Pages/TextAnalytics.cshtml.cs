@@ -32,7 +32,11 @@ namespace OpinionGenerator
         public async Task OnPostAsync()
         {
             var response = await _analyticsService.AnalyzeText(TextToAnalyze);
-            Output = JsonSerializer.Serialize(response);
+            var options = new JsonSerializerOptions
+            {
+                WriteIndented = true
+            };
+            Output = JsonSerializer.Serialize(response, options);
         }
 
     }

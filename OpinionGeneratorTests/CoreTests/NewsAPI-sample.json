@@ -1,0 +1,266 @@
+{
+  "status": "ok",
+  "totalResults": 38,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Theguardian.com"
+      },
+      "author": "Graeme Wearden, Julia Kollewe",
+      "title": "FTSE 100 plunges again as Trump fails to reassure investors - business live - The Guardian",
+      "description": "Rolling coverage of the latest economic and financial news, as Britain’s FTSE 100 is hit by Covid-19 fears again",
+      "url": "https://www.theguardian.com/business/live/2020/feb/27/stock-markets-plunge-ftse-100-dow-correction-trump-coronavirus-investors-business-live",
+      "urlToImage": "https://i.guim.co.uk/img/media/a2d403bcaac963b0a13080900e4153d9e1783cc5/0_0_5400_3240/master/5400.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=cb133b20a59160aac1fd63ec0c5e8056",
+      "publishedAt": "2020-02-27T08:44:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Telegraph.co.uk"
+      },
+      "author": "Author, Author",
+      "title": "Coronavirus sends European shares tumbling again – live updates - The Telegraph",
+      "description": "My colleague Michael O&rsquo;Dwyer has a full report on this morning&rsquo;s action (or, indeed, non-action, at NMC Health).",
+      "url": "https://www.telegraph.co.uk/business/2020/02/27/ftse-set-plunge-coronavirus-spreads-live-updates/",
+      "urlToImage": "https://www.telegraph.co.uk/content/dam/business/2020/02/27/TELEMMGLPICT000226159354-xlarge_trans_NvBQzQNjv4BqHaZ8JMGQ_nOZ1URPL9FaE8iZ_6TH--rKxBA8mEVjkI4.jpeg?imwidth=1200",
+      "publishedAt": "2020-02-27T08:28:00Z",
+      "content": "Laxman Narasimhan, its chief executive, said:\r\nWhile the recent years have been difficult, I believe strongly in our ability to restore performance credibility, and over time, outperform, while making a positive impact on the world.\r\nRB said 2020 had got off … [+631 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Sky.com"
+      },
+      "author": "Sky",
+      "title": "New mini-moon discovered orbiting Earth - but it's only temporary - Sky News",
+      "description": "The 2020 CD3 asteroid, which is up to around 3.5m in diameter, is the second to have been dragged into the Earth's orbit.",
+      "url": "https://news.sky.com/story/new-mini-moon-discovered-orbiting-earth-but-its-only-temporary-11944206",
+      "urlToImage": "https://e3.365dm.com/20/02/1600x900/skynews-earth-space-rock-generic_4932201.jpg?20200227070854",
+      "publishedAt": "2020-02-27T07:57:50Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Theguardian.com"
+      },
+      "author": "Steven Morris",
+      "title": "Prepare for 10 more days of flooding, people living along Severn told - The Guardian",
+      "description": "More rain predicted for affected areas, including Ironbridge in Shropshire, where a barrier buckled",
+      "url": "https://www.theguardian.com/uk-news/2020/feb/27/prepare-for-10-more-days-of-flooding-people-living-along-severn-told",
+      "urlToImage": "https://i.guim.co.uk/img/media/8a7b864d71f0e541c71d6f8b1b30d9ec241e3d70/0_138_6000_3600/master/6000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0589c6f105923cc7489601c10cadfbec",
+      "publishedAt": "2020-02-27T07:55:00Z",
+      "content": "Police have warned that people living along the River Severn could face another 10 days of flooding misery with more rain showers predicted to sweep across affected areas.\r\nEnvironment Agency officials and engineers were continuing to monitor a barrier at Iro… [+2880 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Youtube.com"
+      },
+      "author": null,
+      "title": "Five dead in Milwaukee shooting at Molson Coors beer company - The Sun",
+      "description": "Five people have been killed in a shooting at the Molson Coors Brewing Company campus in Milwaukee, Wisconsin state, local police officials say. Read more he...",
+      "url": "https://www.youtube.com/watch?v=SolNvP8vwwY",
+      "urlToImage": "https://i.ytimg.com/vi/SolNvP8vwwY/maxresdefault.jpg",
+      "publishedAt": "2020-02-27T07:50:52Z",
+      "content": "[[getSimpleString(data.title)]]\r\n[[getSimpleString(data.description)]]\r\n[[getSimpleString(data.videoCountText)]]"
+    },
+    {
+      "source": {
+        "id": "independent",
+        "name": "Independent"
+      },
+      "author": "Chiara Giordano",
+      "title": "Coronavirus: Saudi Arabia bans foreigners from entering country to make pilgrimage to holy sites - The Independent",
+      "description": "Decision comes just months before annual hajj pilgrimage",
+      "url": "https://www.independent.co.uk/news/world/middle-east/coronavirus-saudi-arabia-pilgrim-religious-foreign-ban-umrah-hajj-mecca-symptoms-a9362326.html",
+      "urlToImage": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2020/02/27/07/saudi-arabia.jpg",
+      "publishedAt": "2020-02-27T07:23:00Z",
+      "content": "Saudi Arabia has banned religious pilgrims and foreigners from entering the country over coronavirus outbreak fears.\r\nThe countrys decision comes just months before the annual hajj pilgrimage and after 220 confirmed cases of the Covid-19 illness have been rec… [+3554 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Theguardian.com"
+      },
+      "author": "Charles Bramesco",
+      "title": "David Cronenberg: 'Movies were made for sex' - The Guardian",
+      "description": "The acclaimed film-maker goes in front of the camera for a new thriller and talks about age, sex and how difficult he finds it to get funding for a new project",
+      "url": "https://www.theguardian.com/film/2020/feb/27/david-cronenberg-interview-film-disappearance-at-clifton-hill",
+      "urlToImage": "https://i.guim.co.uk/img/media/47a96a0436cb18453e11377254080799ad03b36a/0_61_3000_1800/master/3000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=10b3de5d8e9033b07c55f89982756980",
+      "publishedAt": "2020-02-27T07:10:00Z",
+      "content": "Walter, the character played by David Cronenberg in Aaron Shins new horror-thriller Disappearance at Clifton Hill, gets an introduction befitting the film-makers legendary stature. He emerges from a small-town river where hes been trawling for sunken treasure… [+8818 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "https://www.facebook.com/bbcnews",
+      "title": "Government to unveil post-Brexit trade talks goals - BBC News",
+      "description": "Formal negotiations with EU - which has already published its strategy - are due to start on Monday.",
+      "url": "https://www.bbc.co.uk/news/uk-politics-51650961",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/5E97/production/_111051242_b6895b29-01ea-4328-98df-e1fd156104fe.jpg",
+      "publishedAt": "2020-02-27T06:47:41Z",
+      "content": "Image copyrightPA MediaImage caption\r\n Boris Johnson has pledged to get a trade deal with the EU by the end of the year\r\nThe government will publish its strategy for post-Brexit trade talks later, as it prepares for formal negotiations with the EU to begin. \r… [+3142 chars]"
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": null,
+      "title": "David Beckham gives verdict on Man Utd manager Ole Gunnar Solskjaer - Mirror Online",
+      "description": null,
+      "url": "https://news.google.com/__i/rss/rd/articles/CBMiVWh0dHBzOi8vd3d3Lm1pcnJvci5jby51ay9zcG9ydC9mb290YmFsbC9uZXdzL2RhdmlkLWJlY2toYW0tZ2l2ZXMtdmVyZGljdC1tYW4tMjE1ODY2NTDSAVlodHRwczovL3d3dy5taXJyb3IuY28udWsvc3BvcnQvZm9vdGJhbGwvbmV3cy9kYXZpZC1iZWNraGFtLWdpdmVzLXZlcmRpY3QtbWFuLTIxNTg2NjUwLmFtcA?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2020-02-27T06:34:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Sky.com"
+      },
+      "author": "James Sillars",
+      "title": "Coronavirus: Stock markets taken sick again on speed of spread - Sky News",
+      "description": "Analysts point to news from South Korea and California as being tipping points for the latest stock market declines.",
+      "url": "https://news.sky.com/story/coronavirus-stock-markets-taken-sick-again-on-speed-of-spread-11944193",
+      "urlToImage": "https://e3.365dm.com/19/12/1600x900/skynews-financial-markets-brexit-election_4858372.jpg?20191206123726",
+      "publishedAt": "2020-02-27T06:23:09Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Skysports.com"
+      },
+      "author": "James Dielhenn",
+      "title": "Deontay Wilder: Showing respect to a fallen champion who can come back stronger - Sky Sports",
+      "description": "A whitewash defeat? Yes. But the 'Bronze Bomber' was a true champion who redefined the sight of the knockout punch.",
+      "url": "https://www.skysports.com/boxing/news/12183/11943681/deontay-wilder-showing-respect-to-a-fallen-champion-who-can-come-back-stronger",
+      "urlToImage": "https://e1.365dm.com/20/02/1600x900/skysports-deontay-wilder-tyson-fury_4931500.jpg",
+      "publishedAt": "2020-02-27T06:00:51Z",
+      "content": "It isn't natural, in the wake of a massive fight concluding so comprehensively, to spend time dwelling on the loser. The victor, in this case Tyson Fury, is too glorious and too mesmeric to divert attention away from.\r\nFor the beaten person in a fight of such… [+4509 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Theguardian.comsociety"
+      },
+      "author": "Robert Booth",
+      "title": "'We slowly build a rapport': how street buddies connect with rough sleepers - The Guardian",
+      "description": "%27We%20slowly%20build%20a%20rapport%27%3A%20how%20street%20buddies%20connect%20with%20rough%20sleepers%20%7C%20Homelessness%20%7C%20The%20Guardian",
+      "url": "https://amp.theguardian.comsociety/2020/feb/27/we-slowly-build-a-rapport-how-street-buddies-connect-with-rough-sleepers",
+      "urlToImage": "https://i.guim.co.uk/img/media/e2242e52da4915fb1cf81428cb75b39f01e02a53/533_232_3723_2234/master/3723.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=4cddd4e3b7aa92239622fb6cfacca2b8",
+      "publishedAt": "2020-02-27T06:00:00Z",
+      "content": "A freezing wind is whipping through Londons Victoria as Tim Joyce and Gerry OBrien approach two rough sleepers huddled in sleeping bags on the pavement outside a branch of the Halifax bank. A few doors along police and private security guards hustle other hom… [+5976 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Theguardian.com"
+      },
+      "author": "Andrew Gilchrist",
+      "title": "Free Solo climbing star Alex Honnold falling – Keith Ladzinski's best photograph - The Guardian",
+      "description": "‘Alex was on vacation in Greece – but even on vacation, he still climbs. Fortunately, unlike in the film Free Solo, he’s on a rope here’",
+      "url": "https://www.theguardian.com/artanddesign/2020/feb/27/free-solo-star-alex-honnold-falling-off-a-mountain-keith-ladzinski-best-photograph",
+      "urlToImage": "https://i.guim.co.uk/img/media/1ba9bd4ca9e43b21553fe633830acd6fa1f6071c/396_716_2259_1355/master/2259.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=06f5fdcdf64f7d543d7c618a515be5c0",
+      "publishedAt": "2020-02-27T06:00:00Z",
+      "content": "When youre climbing, things can go from fun to serious pretty quick. The worst fall I ever had happened while I was in Aspen, Colorado, in 2002. I broke my neck, my pelvic bone and four ribs. I collapsed my right lung, too, and had kidney and liver damage. I … [+4178 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Mirror.co.uk"
+      },
+      "author": "James Brinsford",
+      "title": "Pussycat Dolls 'embarrassed by tech problem' which saw music start without them - Mirror Online",
+      "description": "The Pussycat Dolls had an issue on BBC's The One Show on Wednesday which saw them miss their cue and stand still as their track began to play",
+      "url": "https://www.mirror.co.uk/3am/celebrity-news/pussycat-dolls-embarrassed-tech-problem-21586535",
+      "urlToImage": "https://i2-prod.mirror.co.uk/incoming/article21586577.ece/ALTERNATES/s1200/0_Nicole-Scherzinger-gets-personal-chauffeur-from-boyfriend-Thom-Evans-as-she-exits-a-very-raunchy-Pu.jpg",
+      "publishedAt": "2020-02-27T05:23:00Z",
+      "content": "The Pussycat Dolls were embarrassed by a technical issue on The One Show which saw them stand still with their backs to the camera while their latest single played. \r\nNicole Scherzinger and her reunited group stood there for 30 seconds as their new song playe… [+2170 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Bournemouthecho.co.uk"
+      },
+      "author": "Ben Williets",
+      "title": "Coronavirus fears in Dorset: what we know so far - Bournemouth Echo",
+      "description": "FEARS have grown in Dorset surrounding the coronavirus as schools start following government guidance to maintain the situation. Here’s what we…",
+      "url": "https://www.bournemouthecho.co.uk/news/18265168.coronavirus-fears-dorset-know-far/",
+      "urlToImage": "https://www.bournemouthecho.co.uk/resources/images/11080553/",
+      "publishedAt": "2020-02-27T05:13:00Z",
+      "content": "FEARS have grown in Dorset surrounding the coronavirus as schools start following government guidance to maintain the situation. Here’s what we know so far.\r\nFirstly, two Poole schools, whose pupils returned from a half-term trip to northern Italy, contacted … [+2160 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Theguardian.com"
+      },
+      "author": "Reuters",
+      "title": "Coronavirus: Japanese woman tests positive for second time - The Guardian",
+      "description": "Tour guide from Osaka had been given all-clear in early February but then developed a sore throat and chest pains",
+      "url": "https://www.theguardian.com/world/2020/feb/27/japanese-woman-tests-positive-for-coronavirus-for-second-time",
+      "urlToImage": "https://i.guim.co.uk/img/media/0f7f18b0bb03e88c684989b36d0cd6e5582e928e/0_33_3500_2101/master/3500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=5c70cd7a3abf8eee2c99acf2022f9482",
+      "publishedAt": "2020-02-27T04:51:00Z",
+      "content": "A woman working as a tour bus guide in Japan has tested positive for coronavirus for a second time, in what authorities say is the first such case.\r\nThe woman, in her 40s and a resident of Osaka in western Japan, tested positive on Wednesday after developing … [+1911 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Sky.com"
+      },
+      "author": "Sharon Marris",
+      "title": "'Mike has a certain talent for this': Trump picks Pence to run coronavirus response - Sky News",
+      "description": "Vice President Mike Pence is given the task of leading the US coronavirus response, as cases continue to increase worldwide.",
+      "url": "https://news.sky.com/story/mike-has-a-certain-talent-for-this-trump-picks-pence-to-run-coronavirus-response-11944176",
+      "urlToImage": "https://e3.365dm.com/20/02/1600x900/skynews-pence-trump-coronavirus_4932130.jpg?20200227035202",
+      "publishedAt": "2020-02-27T04:39:05Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Teslarati.com"
+      },
+      "author": "Amy Thompson",
+      "title": "NASA’s Mars Lander finds that the Red Planet’s magnetic field is really weird - Teslarati",
+      "description": "Researchers studying the red planet uncovered a big surprise: the Martian magnetic field is about 10 times stronger than previously thought, and constantly changing. NASA’s InSight lander, a stationary robotic explorer tasked with studying the Martian interio…",
+      "url": "https://www.teslarati.com/nasa-insight-mars-magnetic-field-discovery/",
+      "urlToImage": "https://www.teslarati.com/wp-content/uploads/2018/12/intro-image-landing.jpg",
+      "publishedAt": "2020-02-27T04:04:08Z",
+      "content": "Researchers studying the red planet uncovered a big surprise: the Martian magnetic field is about 10 times stronger than previously thought, and constantly changing.\r\nNASAs InSight lander, a stationary robotic explorer tasked with studying the Martian interio… [+3810 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Coronavirus: Tenerife hotel guests 'horrified' by conditions - BBC News",
+      "description": "Selina Lund said fellow guests were not following hygiene rules to prevent the spread of the virus.",
+      "url": "https://www.bbc.co.uk/news/av/world-europe-51655012/coronavirus-tenerife-hotel-guests-horrified-by-conditions",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/1801/production/_111054160_p084wwht.jpg",
+      "publishedAt": "2020-02-27T02:32:09Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Theguardian.com"
+      },
+      "author": "Guardian staff and agencies",
+      "title": "New coronavirus case in northern California may be first with no link to travel - The Guardian",
+      "description": "CDC says person is not known to have traveled to outbreak zone, suggesting virus may be spreading within community",
+      "url": "https://www.theguardian.com/world/2020/feb/26/us-coronavirus-california-case",
+      "urlToImage": "https://i.guim.co.uk/img/media/505686e5f158c0d2ff3e5ecc1e215fe65ce29639/0_234_3510_2106/master/3510.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=922e444f4a90d53e49fcf1a64fa90319",
+      "publishedAt": "2020-02-27T02:06:00Z",
+      "content": "US health officials have confirmed a new case of coronavirus infection in California that could be a sign that the virus is spreading in an American community.\r\nThe Centers for Disease Control and Prevention reported the case on Wednesday night and said it co… [+1656 chars]"
+    }
+  ]
+}
