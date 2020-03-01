@@ -32,12 +32,17 @@ namespace OpinionGeneratorTests
         {
             public AzTextAnalyticsConfiguration AzTextAnalytics { get; set; } = new AzTextAnalyticsConfiguration();
             public string NewsAPIKey { get; set; }
+            public ConnectionStrings ConnectionStrings { get; set; } = new ConnectionStrings();
         }
 
         public class AzTextAnalyticsConfiguration
         {
             public string Key { get; set; }
             public string Url { get; set; }
+        }
+        public class ConnectionStrings
+        {
+            public string OpinionGenerator { get; set; }
         }
 
     }

@@ -8,6 +8,13 @@ namespace OpinionGenerator.Data
 {
     public class OpinionGeneratorDbContext : DbContext
     {
+        public OpinionGeneratorDbContext(DbContextOptions<OpinionGeneratorDbContext> options)
+            : base(options)
+        {
+        }
+
         public DbSet<Article> Articles { get; set; }
+        public DbSet<TextAnalyticsResult> AnalyticsResults { get; set; }
+               
     }
 }
