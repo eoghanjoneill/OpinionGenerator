@@ -11,8 +11,8 @@ namespace OpinionGenerator.Core.Entities
         #region "Properties from OpinionGenerator"
         [Key]
         public int Id { get; set; }
-        public DateTime? RetrievedAt { get; set; }
-        public TextAnalyticsResult TextAnalyticsResult { get; set; }
+        public DateTimeOffset? RetrievedAt { get; set; }
+        public AzTextAnalyticsResult TextAnalyticsResult { get; set; }
         #endregion
 
         #region "Properties from NewsAPI"
@@ -27,7 +27,7 @@ namespace OpinionGenerator.Core.Entities
         public string Url { get; set; }
         [MaxLength(2048)]
         public string UrlToImage { get; set; }
-        public DateTime? PublishedAt { get; set; }
+        public DateTimeOffset? PublishedAt { get; set; }
         #endregion
 
         #region "Properties from query"

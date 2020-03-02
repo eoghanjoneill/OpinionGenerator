@@ -8,7 +8,7 @@ using System.Text;
 
 namespace OpinionGenerator.Core.Entities
 {
-    public class TextAnalyticsResult
+    public class AzTextAnalyticsResult
     {
         [Key]
         public int Id { get; set; }

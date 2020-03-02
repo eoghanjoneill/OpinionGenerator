@@ -5,8 +5,8 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Extensions.Configuration;
-using OpinionGenerator.Services;
+using OpinionGenerator.Core.Services;
+
 
 namespace OpinionGenerator
 {

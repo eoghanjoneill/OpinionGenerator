@@ -8,36 +8,44 @@ using System.Linq;
 using System.Text.Json.Serialization;
 using OpinionGenerator.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc.Testing;
+using System.Net.Http;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Configuration;
+using System.Threading.Tasks;
 
-namespace OpinionGeneratorTests.CoreTests
+namespace OpinionGeneratorTests.IntegrationTests.CoreTests
 {
+    [TestFixture]
     public class NewsAPIArticleServiceTests
-    {        
-        private TestHelper.OpinionGeneratorConfiguration _configuration;
-        private NewsAPIArticleService _newsAPIArticleService;
-        private AzureTextAnalyticsService _azureTextAnalyticsService;
+    {
+        private WebApplicationFactory<OpinionGenerator.Startup> _factory;
+        private HttpClient _client;
+        //private TestHelper.OpinionGeneratorConfiguration _configuration;
+        private IConfiguration _configuration2;
+        private IArticleService _articleService;           
+        private ITextAnalyticsService _textAnalyticsService;
+        private OpinionGeneratorDbContext _dbContext;
         private IOpinionGeneratorData _opinionGeneratorData;
 
         [OneTimeSetUp]
         public void Init()
         {
-            _configuration = TestHelper.GetApplicationConfiguration(TestContext.CurrentContext.TestDirectory);
-            _newsAPIArticleService = new NewsAPIArticleService(_configuration.NewsAPIKey);
-            _azureTextAnalyticsService = new AzureTextAnalyticsService(_configuration.AzTextAnalytics.Url, _configuration.AzTextAnalytics.Key);
-
-            var optionsBuilder = new DbContextOptionsBuilder<OpinionGeneratorDbContext>();
-            optionsBuilder.UseSqlServer(_configuration.ConnectionStrings.OpinionGenerator);
-            _opinionGeneratorData = new OpinionGenertorSqlData(new OpinionGeneratorDbContext(optionsBuilder.Options));
+            _factory = new WebApplicationFactory<OpinionGenerator.Startup>();
+            _client = _factory.CreateClient();
+                        
+            using (var scope = _factory.Services.CreateScope())
+            {
+                _configuration2 = scope.ServiceProvider.GetRequiredService<IConfiguration>();
+                _articleService = scope.ServiceProvider.GetRequiredService<IArticleService>();
+                _textAnalyticsService = scope.ServiceProvider.GetRequiredService<ITextAnalyticsService>();
+                _dbContext = scope.ServiceProvider.GetRequiredService<OpinionGeneratorDbContext>();
+                _opinionGeneratorData = new OpinionGenertorSqlData(_dbContext);
+            }            
         }
 
         [Test]
-        public void NewsAPIArticleService_GetArticles_ValidJson()
-        {
-
-        }
-
-        [Test]
-        public void AzureTextAnalyticsService_GetArticleSentiment()
+        public async Task AzureTextAnalyticsService_GetArticleSentiment()
         {
             var articleJson = File.ReadAllText(TestContext.CurrentContext.TestDirectory + "/CoreTests/NewsAPI-sample.json");
            
@@ -51,7 +59,7 @@ namespace OpinionGeneratorTests.CoreTests
                         
             JsonElement article1 = articles.EnumerateArray().FirstOrDefault<JsonElement>();
             string textToAnalyze = article1.GetProperty("title") + ". " + article1.GetProperty("description");
-            Azure.AI.TextAnalytics.DocumentSentiment sentiment = _azureTextAnalyticsService.AnalyzeText(textToAnalyze).Result;
+            AzTextAnalyticsResult sentiment = await _textAnalyticsService.AnalyzeText(textToAnalyze);
 
             JsonSerializerOptions options = new JsonSerializerOptions
             {
@@ -85,5 +93,11 @@ namespace OpinionGeneratorTests.CoreTests
             Assert.IsTrue(true);
         }
 
+        [Test]
+        public async Task GetLatestHeadlines_CheckContent()
+        {
+            var articles = await _articleService.GetLatestHeadlines();
+            Assert.IsNotNull(articles);
+        }
     }
 }

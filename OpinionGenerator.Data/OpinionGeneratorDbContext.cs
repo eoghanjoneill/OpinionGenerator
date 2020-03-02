@@ -14,7 +14,7 @@ namespace OpinionGenerator.Data
         }
 
         public DbSet<Article> Articles { get; set; }
-        public DbSet<TextAnalyticsResult> AnalyticsResults { get; set; }
+        public DbSet<AzTextAnalyticsResult> AzTextAnalyticsResults { get; set; }
                
     }
 }

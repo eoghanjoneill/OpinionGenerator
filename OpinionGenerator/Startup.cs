@@ -1,3 +1,4 @@
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -6,8 +7,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using OpinionGenerator.Core.Profiles;
+using OpinionGenerator.Core.Services;
 using OpinionGenerator.Data;
-using OpinionGenerator.Services;
+using System;
 
 namespace OpinionGenerator
 {
@@ -28,7 +31,12 @@ namespace OpinionGenerator
                 options.UseSqlServer(Configuration.GetConnectionString("OpinionGenerator"));
             });
 
+            services.AddAutoMapper(typeof(ArticlesProfile), typeof(AzTextAnalyticsResultProfile));
             services.AddScoped<IOpinionGeneratorData, OpinionGenertorSqlData>();
+            services.Configure<NewsAPIOptions>(Configuration.GetSection("NewsAPI"));
+            services.AddScoped<IArticleService, NewsAPIArticleService>();
+            services.Configure<AzureTextAnalyticsOptions>(Configuration.GetSection("AzTextAnalytics"));
+            services.AddScoped<ITextAnalyticsService, AzureTextAnalyticsService>();
 
             services.AddControllersWithViews();
             // In production, the Angular files will be served from this directory
@@ -37,9 +45,6 @@ namespace OpinionGenerator
                 configuration.RootPath = "ClientApp/dist";
             });
             services.AddRazorPages();
-
-            services.AddTransient<IArticleService, NewsAPIArticleServiceWrapper>();
-            services.AddTransient<ITextAnalyticsService, AzureTextAnalyticsServiceWrapper>();
 
         }
 
