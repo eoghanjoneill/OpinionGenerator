@@ -26,19 +26,18 @@ namespace OpinionGenerator
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContextPool<OpinionGeneratorDbContext>(options =>
+            services.AddDbContext<OpinionGeneratorDbContext>(options =>
             {
                 options.UseSqlServer(Configuration.GetConnectionString("OpinionGenerator"));
-            });
-
-            services.AddAutoMapper(typeof(ArticlesProfile), typeof(AzTextAnalyticsResultProfile));
-            services.AddScoped<IOpinionGeneratorData, OpinionGenertorSqlData>();
-            services.Configure<NewsAPIOptions>(Configuration.GetSection("NewsAPI"));
-            services.AddScoped<IArticleService, NewsAPIArticleService>();
-            services.Configure<AzureTextAnalyticsOptions>(Configuration.GetSection("AzTextAnalytics"));
-            services.AddScoped<ITextAnalyticsService, AzureTextAnalyticsService>();
-
-            services.AddControllersWithViews();
+            })
+            .AddAutoMapper(typeof(ArticlesProfile), typeof(AzTextAnalyticsResultProfile))
+            .AddScoped<IOpinionGeneratorData, OpinionGenertorSqlData>()
+            .Configure<NewsAPIOptions>(Configuration.GetSection("NewsAPI"))
+            .AddScoped<IArticleService, NewsAPIArticleService>()
+            .Configure<AzureTextAnalyticsOptions>(Configuration.GetSection("AzTextAnalytics"))
+            .AddScoped<ITextAnalyticsService, AzureTextAnalyticsService>();
+                        
+            //services.AddControllersWithViews();
             // In production, the Angular files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
             {
@@ -73,9 +72,7 @@ namespace OpinionGenerator
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller}/{action=Index}/{id?}");                
+                endpoints.MapControllers();
             });
 
             app.Map("/razor", razor =>

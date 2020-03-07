@@ -13,6 +13,7 @@ using System.Net.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
 using System.Threading.Tasks;
+using System.Collections.Generic;
 
 namespace OpinionGeneratorTests.IntegrationTests.CoreTests
 {
@@ -25,8 +26,8 @@ namespace OpinionGeneratorTests.IntegrationTests.CoreTests
         private IConfiguration _configuration2;
         private IArticleService _articleService;           
         private ITextAnalyticsService _textAnalyticsService;
-        private OpinionGeneratorDbContext _dbContext;
-        private IOpinionGeneratorData _opinionGeneratorData;
+        //private OpinionGeneratorDbContext _dbContext;
+       // private IOpinionGeneratorData _opinionGeneratorData;
 
         [OneTimeSetUp]
         public void Init()
@@ -39,8 +40,8 @@ namespace OpinionGeneratorTests.IntegrationTests.CoreTests
                 _configuration2 = scope.ServiceProvider.GetRequiredService<IConfiguration>();
                 _articleService = scope.ServiceProvider.GetRequiredService<IArticleService>();
                 _textAnalyticsService = scope.ServiceProvider.GetRequiredService<ITextAnalyticsService>();
-                _dbContext = scope.ServiceProvider.GetRequiredService<OpinionGeneratorDbContext>();
-                _opinionGeneratorData = new OpinionGenertorSqlData(_dbContext);
+                //_dbContext = scope.ServiceProvider.GetRequiredService<OpinionGeneratorDbContext>();
+                //_opinionGeneratorData = scope.ServiceProvider.GetRequiredService<IOpinionGeneratorData>();
             }            
         }
 
@@ -88,8 +89,8 @@ namespace OpinionGeneratorTests.IntegrationTests.CoreTests
             a.Url = article1.GetProperty("url").GetString();
             a.UrlToImage = article1.GetProperty("urlToImage").GetString();
             a.PublishedAt = article1.GetProperty("publishedAt").GetDateTime();
-            _opinionGeneratorData.AddArticle(a);
-            _opinionGeneratorData.Save();
+            //_opinionGeneratorData.AddArticle(a);
+            //_opinionGeneratorData.Save();
             Assert.IsTrue(true);
         }
 
@@ -98,6 +99,43 @@ namespace OpinionGeneratorTests.IntegrationTests.CoreTests
         {
             var articles = await _articleService.GetLatestHeadlines();
             Assert.IsNotNull(articles);
+        }
+
+        [Test]
+        public async Task GetLatestHeadlines_SaveToDatabase()
+        {
+            var articles = await _articleService.GetLatestHeadlines();
+            JsonSerializerOptions options = new JsonSerializerOptions
+            {
+                WriteIndented = true
+            };
+            var s = JsonSerializer.Serialize<List<Article>>(articles, options);
+            System.Diagnostics.Debug.WriteLine(s);
+            Assert.IsNotNull(articles);
+            using (var scope = _factory.Services.CreateScope())
+            {
+                var opinionGeneratorData = scope.ServiceProvider.GetRequiredService<IOpinionGeneratorData>();
+                foreach (var article in articles)
+                {
+                    Assert.DoesNotThrow(() =>
+                    {
+                        opinionGeneratorData.AddArticle(article);
+                        opinionGeneratorData.Save();
+                    });
+                }
+            }
+            
+        }
+
+        [Test]
+        public void CheckDBContext()
+        {
+            using (var scope = _factory.Services.CreateScope())
+            {
+                var dbContext = scope.ServiceProvider.GetRequiredService<OpinionGeneratorDbContext>();
+                Assert.IsNotNull(dbContext.ArticleNewsSource.FirstOrDefault());
+            }
+            
         }
     }
 }

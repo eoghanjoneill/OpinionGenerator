@@ -1,0 +1,342 @@
+﻿[
+  {
+    "Id": 0,
+    "RetrievedAt": "2020-03-07T14:07:45.2559298+00:00",
+    "TextAnalyticsResult": null,
+    "Source": {
+      "IntId": 0,
+      "Id": null,
+      "Name": "Theguardian.com"
+    },
+    "Author": "Hannah Devlin",
+    "Title": "Is coronavirus mutating into a more deadly strain? Covid-19 myths busted - The Guardian",
+    "Description": "The truth about the protective value of face masks and how easy it is to catch Covid-19",
+    "Url": "https://www.theguardian.com/world/2020/mar/07/is-coronavirus-mutating-into-a-more-deadly-strain-face-masks-covid-19-myths-busted",
+    "UrlToImage": "https://i.guim.co.uk/img/media/d39422f773fa115d0cf5e46ad4acb81fdfe0e35d/0_0_6824_4094/master/6824.jpg?width=1200\u0026height=630\u0026quality=85\u0026auto=format\u0026fit=crop\u0026overlay-align=bottom%2Cleft\u0026overlay-width=100p\u0026overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc\u0026enable=upscale\u0026s=1c944366a577fff98165f28e6979e84a",
+    "PublishedAt": "2020-03-07T12:35:58+00:00",
+    "Country": "gb"
+  },
+  {
+    "Id": 0,
+    "RetrievedAt": "2020-03-07T14:07:45.2559298+00:00",
+    "TextAnalyticsResult": null,
+    "Source": {
+      "IntId": 0,
+      "Id": null,
+      "Name": "Theguardian.com"
+    },
+    "Author": "Tom Phillips",
+    "Title": "\u0027This is our feminist spring\u0027: millions of Mexican women prepare to strike over femicides - The Guardian",
+    "Description": "As the country grapples with a worsening crisis, the revolt among a new generation of feminists is picking up steam: \u2018It\u2019s our last resort\u2019",
+    "Url": "https://www.theguardian.com/world/2020/mar/07/mexico-femicides-protest-women-strike",
+    "UrlToImage": "https://i.guim.co.uk/img/media/356ae4bfd99f23fd7fd3db766793f262d5c10a06/0_22_3643_2186/master/3643.jpg?width=1200\u0026height=630\u0026quality=85\u0026auto=format\u0026fit=crop\u0026overlay-align=bottom%2Cleft\u0026overlay-width=100p\u0026overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc\u0026enable=upscale\u0026s=473e55c6f09a57447bfa54afc4670176",
+    "PublishedAt": "2020-03-07T12:35:51+00:00",
+    "Country": "gb"
+  },
+  {
+    "Id": 0,
+    "RetrievedAt": "2020-03-07T14:07:45.2559298+00:00",
+    "TextAnalyticsResult": null,
+    "Source": {
+      "IntId": 0,
+      "Id": null,
+      "Name": "Theguardian.com"
+    },
+    "Author": "Scott Murray",
+    "Title": "Liverpool v Bournemouth: Premier League \u2013 live! - The Guardian",
+    "Description": "Minute-by-minute report: Will Liverpool recover from their wobble against the relegation-threatened Cherries? Join Scott Murray",
+    "Url": "https://www.theguardian.com/football/live/2020/mar/07/liverpool-v-bournemouth-premier-league-live",
+    "UrlToImage": "https://i.guim.co.uk/img/media/2d6150c71dae5695951e9be43432daff6132d8f1/224_321_3159_1895/master/3159.jpg?width=1200\u0026height=630\u0026quality=85\u0026auto=format\u0026fit=crop\u0026overlay-align=bottom%2Cleft\u0026overlay-width=100p\u0026overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc\u0026enable=upscale\u0026s=5dab481857fc9ae28fabff51831a4a62",
+    "PublishedAt": "2020-03-07T12:24:00+00:00",
+    "Country": "gb"
+  },
+  {
+    "Id": 0,
+    "RetrievedAt": "2020-03-07T14:07:45.2559298+00:00",
+    "TextAnalyticsResult": null,
+    "Source": {
+      "IntId": 0,
+      "Id": "bbc-news",
+      "Name": "BBC News"
+    },
+    "Author": "https://www.facebook.com/bbcnews",
+    "Title": "Whitehaven woman \u0027missing\u0027 in Fiji found safe - BBC News",
+    "Description": "Lydia O\u0027Sullivan is found after photos of her posted by a mountain retreat are spotted online.",
+    "Url": "https://www.bbc.co.uk/news/uk-england-cumbria-51782254",
+    "UrlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/4B42/production/_111166291_b126c792-2e95-4b68-9d14-6d6f4bf93a04.jpg",
+    "PublishedAt": "2020-03-07T12:22:30+00:00",
+    "Country": "gb"
+  },
+  {
+    "Id": 0,
+    "RetrievedAt": "2020-03-07T14:07:45.2559298+00:00",
+    "TextAnalyticsResult": null,
+    "Source": {
+      "IntId": 0,
+      "Id": null,
+      "Name": "Dailymail.co.uk"
+    },
+    "Author": "By Amelia Wynne For Mailonline",
+    "Title": "Coronavirus outbreak could peak in the UK at Easter and last for another six months - Daily Mail",
+    "Description": "A big increase in British diagnoses is expected as the virus is now being transmitted in the community and testing is being ramped up. Microbiologist Peter Piot said it will peak at Easter.",
+    "Url": "https://www.dailymail.co.uk/news/article-8085837/Coronavirus-outbreak-peak-UK-Easter-six-months.html",
+    "UrlToImage": "https://i.dailymail.co.uk/1s/2020/03/07/11/25657746-0-image-a-21_1583580513157.jpg",
+    "PublishedAt": "2020-03-07T12:18:44+00:00",
+    "Country": "gb"
+  },
+  {
+    "Id": 0,
+    "RetrievedAt": "2020-03-07T14:07:45.2559298+00:00",
+    "TextAnalyticsResult": null,
+    "Source": {
+      "IntId": 0,
+      "Id": null,
+      "Name": "Manchestereveningnews.co.uk"
+    },
+    "Author": "Marcus Banks",
+    "Title": "Solskjaer asked about Paul Pogba and Bruno Fernandes partnership at Manchester United - Manchester Evening News",
+    "Description": "Manchester United boss Ole Gunnar Solskjaer was questioned on the possibility of Paul Pogba and Bruno Fernandes lining up together this season.",
+    "Url": "https://www.manchestereveningnews.co.uk/sport/football/pogba-fernandes-solskjaer-manchester-united-17881416",
+    "UrlToImage": "https://i2-prod.manchestereveningnews.co.uk/incoming/article17881441.ece/ALTERNATES/s1200/0_Ole-Gunnar-Solksjaer-Paul-Pogba-Bruno-Fernandes-Manchester-United-NBC-Sports.jpg",
+    "PublishedAt": "2020-03-07T12:15:57+00:00",
+    "Country": "gb"
+  },
+  {
+    "Id": 0,
+    "RetrievedAt": "2020-03-07T14:07:45.2559298+00:00",
+    "TextAnalyticsResult": null,
+    "Source": {
+      "IntId": 0,
+      "Id": null,
+      "Name": "Thesun.co.uk"
+    },
+    "Author": "Jill Robinson",
+    "Title": "TOWIE\u2019s Courtney Green\u2019s ex reveals horrific injuries after being slashed in the face with scissors during att - The Sun",
+    "Description": "",
+    "Url": "http://www.thesun.co.uk/tvandshowbiz/11119328/towie-courtney-green-ex-slashed-face-scissors-attack/",
+    "UrlToImage": "https://www.thesun.co.uk/wp-content/uploads/2020/03/RB-COMP-CALLUM.jpg?strip=all\u0026quality=100\u0026w=1200\u0026h=800\u0026crop=1",
+    "PublishedAt": "2020-03-07T11:48:58+00:00",
+    "Country": "gb"
+  },
+  {
+    "Id": 0,
+    "RetrievedAt": "2020-03-07T14:07:45.2559298+00:00",
+    "TextAnalyticsResult": null,
+    "Source": {
+      "IntId": 0,
+      "Id": null,
+      "Name": "Telegraph.co.uk"
+    },
+    "Author": "By\nPhoebe Southworth",
+    "Title": "Carrie Symonds pictured for first time since pregnancy announcement - Telegraph.co.uk",
+    "Description": "Carrie Symonds has been pictured for the first time since announcing her and the Prime Minister are expecting a baby, showing off her blossoming bump and a prominent engagement ring.",
+    "Url": "https://www.telegraph.co.uk/news/2020/03/07/carrie-symonds-pictured-first-time-wearing-engagement-ring/",
+    "UrlToImage": "https://www.telegraph.co.uk/content/dam/news/2020/03/07/TELEMMGLPICT000227146916-xlarge_trans_NvBQzQNjv4BqA7N2CxnJWnYI3tCbVBgu9WVLDaeaWzlxIQpTU2T6YjQ.jpeg?imwidth=1200",
+    "PublishedAt": "2020-03-07T11:46:00+00:00",
+    "Country": "gb"
+  },
+  {
+    "Id": 0,
+    "RetrievedAt": "2020-03-07T14:07:45.2559298+00:00",
+    "TextAnalyticsResult": null,
+    "Source": {
+      "IntId": 0,
+      "Id": null,
+      "Name": "Metro.co.uk"
+    },
+    "Author": "Metro Sport Reporter",
+    "Title": "Manchester United told to replace Paul Pogba with \u00A370m transfer target Jack Grealish - Metro.co.uk",
+    "Description": "Ole Gunnar Solskjaer is already eyeing a move...",
+    "Url": "https://metro.co.uk/2020/03/07/manchester-united-told-replace-pogba-premier-league-captain-solskjaer-transfer-12362939/",
+    "UrlToImage": "https://i0.wp.com/metro.co.uk/wp-content/uploads/2020/03/GettyImages-1190726131_1583579432.jpg?quality=90\u0026strip=all\u0026w=1200\u0026h=630\u0026crop=1\u0026zoom=1\u0026ssl=1",
+    "PublishedAt": "2020-03-07T11:45:53+00:00",
+    "Country": "gb"
+  },
+  {
+    "Id": 0,
+    "RetrievedAt": "2020-03-07T14:07:45.2559298+00:00",
+    "TextAnalyticsResult": null,
+    "Source": {
+      "IntId": 0,
+      "Id": null,
+      "Name": "Theguardian.com"
+    },
+    "Author": "Catherine Cho",
+    "Title": "\u2018My baby had devils\u2019 eyes\u2019: the reality of postpartum psychosis - The Guardian",
+    "Description": "He was only months old when I heard \u2018the voice of God\u2019 telling me he must die",
+    "Url": "https://www.theguardian.com/society/2020/mar/07/my-baby-had-devils-eyes-the-reality-of-postpartum-psychosis",
+    "UrlToImage": "https://i.guim.co.uk/img/media/7ca2034c0ab350059a1155893991a24b9ce2d297/0_1023_3374_2023/master/3374.jpg?width=1200\u0026height=630\u0026quality=85\u0026auto=format\u0026fit=crop\u0026overlay-align=bottom%2Cleft\u0026overlay-width=100p\u0026overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc\u0026enable=upscale\u0026s=34f77a7dfae989710172f43cef0febb3",
+    "PublishedAt": "2020-03-07T11:20:39+00:00",
+    "Country": "gb"
+  },
+  {
+    "Id": 0,
+    "RetrievedAt": "2020-03-07T14:07:45.2559298+00:00",
+    "TextAnalyticsResult": null,
+    "Source": {
+      "IntId": 0,
+      "Id": null,
+      "Name": "Dexerto.com"
+    },
+    "Author": "Daniel Cleary",
+    "Title": "Apex Legends glitch accidentally creates terrifying Revenant skin - Dexerto",
+    "Description": "This Revenant glitch may have accidentally created the perfect skin for terrifying your opponents in Apex Legends.",
+    "Url": "https://www.dexerto.com/apex-legends/apex-legends-glitch-accidentally-creates-terrifying-revenant-skin-1338022",
+    "UrlToImage": "https://img.resized.co/dexerto/eyJkYXRhIjoie1widXJsXCI6XCJodHRwczpcXFwvXFxcL2ltYWdlcy5kZXhlcnRvLmNvbVxcXC91cGxvYWRzXFxcLzIwMjBcXFwvMDNcXFwvMDcxMDQ2NTVcXFwvYXBleC1sZWdlbmRzLXJldmVuYW50LXNraW4tZ2xpdGNoLXVuaG9seS1iZWFzdC10ZXJyaWZ5aW5nLmpwZ1wiLFwid2lkdGhcIjo2NDcsXCJoZWlnaHRcIjozNDAsXCJkZWZhdWx0XCI6XCJodHRwczpcXFwvXFxcL3MzLWV1LXdlc3QtMS5hbWF6b25hd3MuY29tXFxcL3BwbHVzLmltYWdlcy5kZXhlcnRvLmNvbVxcXC91cGxvYWRzXFxcLzIwMTlcXFwvMTFcXFwvMTEyMTQ5NDNcXFwvcGxhY2Vob2xkZXIuanBnXCJ9IiwiaGFzaCI6IjUyYTZjNmQ3ZjQ4NGI0MzhhYjNkZDg3NjQ4MDFjOTNkMWIzODczMjQifQ==/apex-legends-glitch-accidentally-creates-terrifying-revenant-skin.jpg",
+    "PublishedAt": "2020-03-07T11:11:15+00:00",
+    "Country": "gb"
+  },
+  {
+    "Id": 0,
+    "RetrievedAt": "2020-03-07T14:07:45.2559298+00:00",
+    "TextAnalyticsResult": null,
+    "Source": {
+      "IntId": 0,
+      "Id": null,
+      "Name": "Metro.co.uk"
+    },
+    "Author": "Elisa Menendez",
+    "Title": "Queen \u0027to shun Dubai ruler\u0027 after court rules he kidnapped daughters - Metro.co.uk",
+    "Description": "The monarch and Sheikh Mohammed bin Rashid Al Maktoum are said to have formed a close bond over the past two decades due to their love of horse racing.",
+    "Url": "https://metro.co.uk/2020/03/07/queen-distance-dubai-ruler-court-rules-kidnapped-daughters-12362686/",
+    "UrlToImage": "https://i1.wp.com/metro.co.uk/wp-content/uploads/2020/03/PRI_145739197_1583579980.jpg?quality=90\u0026strip=all\u0026w=1200\u0026h=630\u0026crop=1\u0026zoom=1\u0026ssl=1",
+    "PublishedAt": "2020-03-07T11:03:01+00:00",
+    "Country": "gb"
+  },
+  {
+    "Id": 0,
+    "RetrievedAt": "2020-03-07T14:07:45.2559298+00:00",
+    "TextAnalyticsResult": null,
+    "Source": {
+      "IntId": 0,
+      "Id": "bbc-news",
+      "Name": "BBC News"
+    },
+    "Author": "https://www.facebook.com/bbcnews",
+    "Title": "Turkey to stop migrants crossing to Greece by sea - BBC News",
+    "Description": "But President Erdogan is still allowing refugees to cross by land, as bitter row with EU continues.",
+    "Url": "https://www.bbc.co.uk/news/world-europe-51781394",
+    "UrlToImage": "https://ichef.bbci.co.uk/images/ic/1024x576/p085z2x0.jpg",
+    "PublishedAt": "2020-03-07T10:55:03+00:00",
+    "Country": "gb"
+  },
+  {
+    "Id": 0,
+    "RetrievedAt": "2020-03-07T14:07:45.2559298+00:00",
+    "TextAnalyticsResult": null,
+    "Source": {
+      "IntId": 0,
+      "Id": "bbc-news",
+      "Name": "BBC News"
+    },
+    "Author": null,
+    "Title": "Matthew J Watkins: Ex-Wales centre dies at the age of 41 - BBC News",
+    "Description": "Former Wales centre Matthew J Watkins has died at the age of 41 after a long illness.",
+    "Url": "https://www.bbc.co.uk/sport/rugby-union/51782373",
+    "UrlToImage": "https://ichef.bbci.co.uk/onesport/cps/624/cpsprodpb/83C9/production/_111173733_cdf_300319_brecon_v_penallta_02.jpg",
+    "PublishedAt": "2020-03-07T10:40:02+00:00",
+    "Country": "gb"
+  },
+  {
+    "Id": 0,
+    "RetrievedAt": "2020-03-07T14:07:45.2559298+00:00",
+    "TextAnalyticsResult": null,
+    "Source": {
+      "IntId": 0,
+      "Id": null,
+      "Name": "Theguardian.com"
+    },
+    "Author": "Rebecca Nicholson",
+    "Title": "Back to Life star Daisy Haggard: \u2018If you\u2019re not afraid to be a complete idiot, then do comedy\u2019 - The Guardian",
+    "Description": "After last year\u2019s dark comedy-drama about a former prisoner, the actor draws on her own experiences as a knackered parent for new show Breeders",
+    "Url": "https://www.theguardian.com/tv-and-radio/2020/mar/07/back-to-life-star-daisy-haggard-if-youre-not-afraid-to-be-a-complete-idiot-then-do-comedy",
+    "UrlToImage": "https://i.guim.co.uk/img/media/8cdd95389e998b639e92aadc1d58d721809d7e0c/0_1623_6200_3718/master/6200.jpg?width=1200\u0026height=630\u0026quality=85\u0026auto=format\u0026fit=crop\u0026overlay-align=bottom%2Cleft\u0026overlay-width=100p\u0026overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc\u0026enable=upscale\u0026s=bc45c9f016fa782f384ad8561f102076",
+    "PublishedAt": "2020-03-07T10:20:35+00:00",
+    "Country": "gb"
+  },
+  {
+    "Id": 0,
+    "RetrievedAt": "2020-03-07T14:07:45.2559298+00:00",
+    "TextAnalyticsResult": null,
+    "Source": {
+      "IntId": 0,
+      "Id": "bbc-news",
+      "Name": "BBC News"
+    },
+    "Author": "https://www.facebook.com/bbcnews",
+    "Title": "Coronavirus: UK still \u0027in containment phase\u0027 of virus response - BBC News",
+    "Description": "A health chief says measures to slow the spread must be proportionate and warns against panic-buying.",
+    "Url": "https://www.bbc.co.uk/news/uk-51781018",
+    "UrlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/16465/production/_111173219_fad9b8e0-94c8-4a66-8061-a6f6b874672b.jpg",
+    "PublishedAt": "2020-03-07T10:08:15+00:00",
+    "Country": "gb"
+  },
+  {
+    "Id": 0,
+    "RetrievedAt": "2020-03-07T14:07:45.2559298+00:00",
+    "TextAnalyticsResult": null,
+    "Source": {
+      "IntId": 0,
+      "Id": null,
+      "Name": "Sky.com"
+    },
+    "Author": "Sky",
+    "Title": "Budget 2020: Chancellor set to protect access to cash under new laws - Sky News",
+    "Description": "Rishi Sunak\u0027s measures will aim to ensure people who rely on cash, including vulnerable groups, can access it when they need it.",
+    "Url": "https://news.sky.com/story/budget-2020-chancellor-to-introduce-laws-to-protect-the-future-of-cash-11951581",
+    "UrlToImage": "https://e3.365dm.com/20/03/1600x900/skynews-cash-machine_4940600.jpg?20200307091543",
+    "PublishedAt": "2020-03-07T09:55:19+00:00",
+    "Country": "gb"
+  },
+  {
+    "Id": 0,
+    "RetrievedAt": "2020-03-07T14:07:45.2559298+00:00",
+    "TextAnalyticsResult": null,
+    "Source": {
+      "IntId": 0,
+      "Id": "financial-times",
+      "Name": "Financial Times"
+    },
+    "Author": "Simeon Kerr",
+    "Title": "Saudi Arabia arrests at least three members of royal family - Financial Times",
+    "Description": "News, analysis and comment from the Financial Times, the world\u02BCs leading global business publication",
+    "Url": "https://www.ft.com/content/116c4456-602d-11ea-b0ab-339c2307bcd4",
+    "UrlToImage": null,
+    "PublishedAt": "2020-03-07T09:24:25+00:00",
+    "Country": "gb"
+  },
+  {
+    "Id": 0,
+    "RetrievedAt": "2020-03-07T14:07:45.2559298+00:00",
+    "TextAnalyticsResult": null,
+    "Source": {
+      "IntId": 0,
+      "Id": "independent",
+      "Name": "Independent"
+    },
+    "Author": "Roisin O\u0027Connor",
+    "Title": "Lewis Capaldi: \u2018Paige Turley has every right to talk about me, I\u2019ve written songs about her and made money from them\u2019 - The Independent",
+    "Description": "The Scottish singer-songwriter has hit a billion streams for \u2018Someone You Loved\u2019 and reached No 1 in the UK and America. He talks to Roisin O\u0027Connor about humour, heartbreak, his ex-girlfriend winning \u2018Love Island\u2019, and having a panic attack at the Grammys",
+    "Url": "https://www.independent.co.uk/arts-entertainment/music/features/lewis-capaldi-paige-turley-love-island-grammys-politics-niall-horan-a9375166.html",
+    "UrlToImage": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2020/03/04/14/lew-cap-3.jpg",
+    "PublishedAt": "2020-03-07T08:18:19+00:00",
+    "Country": "gb"
+  },
+  {
+    "Id": 0,
+    "RetrievedAt": "2020-03-07T14:07:45.2559298+00:00",
+    "TextAnalyticsResult": null,
+    "Source": {
+      "IntId": 0,
+      "Id": null,
+      "Name": "Telegraph.co.uk"
+    },
+    "Author": "By\nHannah Uttley",
+    "Title": "The unproven pharma firms battling to conquer coronavirus - Telegraph.co.uk",
+    "Description": "As panic about the coronavirus spreads and the threat of a global pandemic looms closer, the pharmaceutical industry is racing against time to come up with a solution.",
+    "Url": "https://www.telegraph.co.uk/business/2020/03/07/unproven-pharma-firms-battling-conquer-coronavirus/",
+    "UrlToImage": "https://www.telegraph.co.uk/content/dam/business/2020/03/06/Killingcoronavirus-xlarge_trans_NvBQzQNjv4Bq-v5mjQtIaFWjIAkxzrquqN2-jbwZxVZZoXJ1WwZY6Xk.jpg?imwidth=1200",
+    "PublishedAt": "2020-03-07T08:00:00+00:00",
+    "Country": "gb"
+  }
+]

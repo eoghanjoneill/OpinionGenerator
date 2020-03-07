@@ -1,6 +1,7 @@
 ﻿using OpinionGenerator.Core.Entities;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace OpinionGenerator.Data
@@ -21,6 +22,13 @@ namespace OpinionGenerator.Data
 
         public void AddArticle(Article article)
         {
+            if (article.Source != null)
+            {
+                var newsSource = _context.ArticleNewsSource.FirstOrDefault(s => 
+                    s.Id == article.Source.Id && s.Name == article.Source.Name);
+                article.Source = newsSource ?? article.Source;
+            }
+                       
             _context.Articles.Add(article);
         }
 
