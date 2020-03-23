@@ -28,13 +28,37 @@ namespace OpinionGenerator.Core.Entities
         [MaxLength(2048)]
         public string UrlToImage { get; set; }
         public DateTimeOffset? PublishedAt { get; set; }
+        public string Content { get; set; }
         #endregion
 
         #region "Properties from query"
         [MaxLength(100)]
         public string Country { get; set; }
-
         #endregion
+
+        public string TextToAnalyze
+        {
+            get
+            {
+                IEnumerable<string> text = new string[] { Title, Description, Content };
+                text = text
+                    .Where(s => !string.IsNullOrWhiteSpace(s))
+                    .Select(s => AddFullStopIfRequired(s));
+                return string.Join(" ", text);
+            }            
+        }
+
+        private string AddFullStopIfRequired(string s)
+        {
+            s = s.Trim();
+            if (s.EndsWith('.') || s.EndsWith('!') || s.EndsWith('?'))
+            {
+                return s;
+            }
+            else
+            { return s + "."; }
+
+        }
     }
 
     public class NewsSource

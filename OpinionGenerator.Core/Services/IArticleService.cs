@@ -9,5 +9,7 @@ namespace OpinionGenerator.Core.Services
     public interface IArticleService
     {
         public Task<List<Article>> GetLatestHeadlines();
+
+        public Task PopulateSentimentForArticles(List<Article> articles);
     }
 }

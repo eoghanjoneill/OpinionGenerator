@@ -32,6 +32,12 @@ namespace OpinionGenerator
         public async Task OnPostAsync()
         {
             var data = await _articleService.GetLatestHeadlines();
+            await _articleService.PopulateSentimentForArticles(data);
+            foreach (var article in data)
+            {
+                _opinionGeneratorData.AddArticle(article);
+            }
+            _opinionGeneratorData.Save();
             string serialized = JsonSerializer.Serialize(data);
             Output = serialized;
         }

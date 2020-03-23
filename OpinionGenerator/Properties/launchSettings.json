@@ -10,14 +10,12 @@
   "profiles": {
     "IIS Express": {
       "commandName": "IISExpress",
-      "launchBrowser": true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
     "OpinionGenerator": {
       "commandName": "Project",
-      "launchBrowser": true,
       "launchUrl": "razor/TextAnalytics",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"

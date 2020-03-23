@@ -14,6 +14,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpinionGenerator.Data", "Op
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpinionGenerator.Core", "OpinionGenerator.Core\OpinionGenerator.Core.csproj", "{3C74413A-B48E-4A7A-900C-D9659F95E48A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpinionGenerator.UnitTests", "OpinionGenerator.UnitTests\OpinionGenerator.UnitTests.csproj", "{8B192697-ED28-4EFB-B9DC-46941A85B34E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +38,10 @@ Global
 		{3C74413A-B48E-4A7A-900C-D9659F95E48A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C74413A-B48E-4A7A-900C-D9659F95E48A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C74413A-B48E-4A7A-900C-D9659F95E48A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B192697-ED28-4EFB-B9DC-46941A85B34E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B192697-ED28-4EFB-B9DC-46941A85B34E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B192697-ED28-4EFB-B9DC-46941A85B34E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B192697-ED28-4EFB-B9DC-46941A85B34E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

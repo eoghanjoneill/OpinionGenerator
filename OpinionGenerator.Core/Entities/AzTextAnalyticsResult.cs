@@ -102,21 +102,21 @@ namespace OpinionGenerator.Core.Entities
         /// <summary>
         /// Indicates that the sentiment is positive.
         /// </summary>
-        Positive,
+        Positive = 0,
 
         /// <summary>
         /// Indicates that the lacks a sentiment.
         /// </summary>
-        Neutral,
+        Neutral = 1,
 
         /// <summary>
         /// Indicates that the sentiment is negative.
         /// </summary>
-        Negative,
+        Negative = 2,
 
         /// <summary>
         /// Indicates that the contains mixed sentiments.
         /// </summary>
-        Mixed,
+        Mixed = 3,
     }
 }

@@ -6,11 +6,11 @@ using System.Text;
 
 namespace OpinionGenerator.Data
 {
-    public class OpinionGenertorSqlData : IOpinionGeneratorData, IDisposable
+    public class OpinionGeneratorSqlData : IOpinionGeneratorData, IDisposable
     {
         private OpinionGeneratorDbContext _context;
 
-        public OpinionGenertorSqlData(OpinionGeneratorDbContext context)
+        public OpinionGeneratorSqlData(OpinionGeneratorDbContext context)
         {
             _context = context ?? throw new ArgumentNullException(nameof(context));
         }
@@ -32,6 +32,15 @@ namespace OpinionGenerator.Data
             _context.Articles.Add(article);
         }
 
+        public void UpdateArticle(Article article)
+        {
+            if (article.Source != null && article.Source.IntId == 0)
+            {
+                var newsSource = _context.ArticleNewsSource.FirstOrDefault(s =>
+                    s.Id == article.Source.Id && s.Name == article.Source.Name);
+                article.Source = newsSource ?? article.Source;
+            }
+        }
         public bool Save()
         {
             return (_context.SaveChanges() >= 0);

@@ -14,16 +14,12 @@ namespace OpinionGenerator.Core.Services
 {
     public class NewsAPIArticleService : IArticleService
     {
-        public NewsAPIArticleService(IOptions<NewsAPIOptions> newsAPIOptions, IMapper mapper)
+        public NewsAPIArticleService(IOptions<NewsAPIOptions> newsAPIOptions, IMapper mapper, ITextAnalyticsService analyticsService)
         {
-            if (newsAPIOptions == null)
-            {
-                throw new ArgumentNullException(nameof(newsAPIOptions));
-            }
-            if (mapper == null)
-            {
-                throw new ArgumentNullException(nameof(mapper));
-            }
+            if (newsAPIOptions == null) throw new ArgumentNullException(nameof(newsAPIOptions));
+            _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
+            _analyticsService = analyticsService ?? throw new ArgumentNullException(nameof(analyticsService));
+
             var baseUrl = newsAPIOptions.Value.BaseUrl;
             if (!baseUrl.EndsWith("/"))
             {
@@ -31,7 +27,7 @@ namespace OpinionGenerator.Core.Services
             }
             _baseUrl = baseUrl;            
             _apiKey = newsAPIOptions.Value.APIKey;
-            _mapper = mapper;
+            
             _client = new HttpClient(new HttpClientHandler { AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate });
             _client.DefaultRequestHeaders.Add("x-api-key", _apiKey);
         }
@@ -40,6 +36,7 @@ namespace OpinionGenerator.Core.Services
         private readonly string _apiKey;
         private readonly HttpClient _client;
         private readonly IMapper _mapper;
+        private readonly ITextAnalyticsService _analyticsService;
 
         public async Task<List<Article>> GetLatestHeadlines()
         {
@@ -80,6 +77,25 @@ namespace OpinionGenerator.Core.Services
                 System.Diagnostics.Debug.WriteLine($"Status code: {(int)response.StatusCode}; Reason: {response.ReasonPhrase}");
             }
             return null;
-        }       
+        }
+
+        public async Task PopulateSentimentForArticles(List<Article> articles)
+        {
+            if (articles == null) throw new NotImplementedException(nameof(articles));
+            foreach (Article article in articles)
+            {
+                if (article.TextAnalyticsResult == null)
+                {
+                    await PopulateSentimentForArticle(article);
+                }
+            }
+        }
+
+        private async Task PopulateSentimentForArticle(Article article)
+        {
+            var result = await _analyticsService.AnalyzeText(article.TextToAnalyze);
+            article.TextAnalyticsResult = result;
+            
+        }
     }
 }
