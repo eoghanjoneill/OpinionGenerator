@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --base-href \"/ng/\" --serve-path \"/\" --deploy-url \"/ng/\"",
     "build": "ng build",
     "build:ssr": "ng run OpinionGenerator:server:dev",
     "test": "ng test",

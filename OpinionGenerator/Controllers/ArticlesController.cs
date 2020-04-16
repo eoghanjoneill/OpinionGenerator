@@ -23,9 +23,19 @@ namespace OpinionGenerator.Controllers
         }
 
         [HttpGet]
+        [HttpHead]
         public ActionResult<IEnumerable<Article>> GetArticles()
         {
-            throw new NotImplementedException();
+            var articlesFromRepo = _opinionGeneratorData.GetArticles();
+            return Ok(articlesFromRepo);
+        }
+
+        [HttpGet("{articleId}", Name = nameof(GetArticle))]
+        [HttpHead]
+        public ActionResult<IEnumerable<Article>> GetArticle(int articleId)
+        {
+            var article = _opinionGeneratorData.GetArticle(articleId);
+            return Ok(article);
         }
     }
 }

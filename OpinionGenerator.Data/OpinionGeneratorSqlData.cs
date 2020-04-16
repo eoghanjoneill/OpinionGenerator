@@ -20,6 +20,12 @@ namespace OpinionGenerator.Data
             return _context.Articles;
         }
 
+        public Article GetArticle(int articleId)
+        {
+            if (articleId < 1) throw new ArgumentOutOfRangeException(nameof(articleId));
+            return _context.Articles.FirstOrDefault(a => a.Id == articleId);
+        }
+
         public void AddArticle(Article article)
         {
             if (article.Source != null)

@@ -9,10 +9,12 @@ namespace OpinionGenerator.Data
     {
         
         IEnumerable<Article> GetArticles();
+        Article GetArticle(int articleId);
 
         void AddArticle(Article article);
-
+        void UpdateArticle(Article article);
         bool Save();
-               
+        
+       
     }
 }
